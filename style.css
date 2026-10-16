@@ -83,3 +83,29 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+/* compat: classes used by some article templates */
+.site-header { border-bottom: 1px solid var(--border); padding: 20px max(16px, calc((100% - var(--maxw)) / 2)); display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.header-inner { width: 100%; max-width: var(--maxw); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.brand, .logo { color: var(--text); text-decoration: none; font-weight: 700; font-size: 1.1rem; letter-spacing: -0.01em; }
+.brand span, .logo span { color: var(--accent); }
+.site-nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; margin-left: 14px; }
+.site-nav a:hover { color: var(--accent); }
+.wrap { max-width: var(--maxw); }
+.back-link { display: inline-block; margin-bottom: 14px; color: var(--muted); text-decoration: none; font-size: 0.9rem; }
+.meta-line { color: var(--muted); font-size: 0.9rem; margin-bottom: 2em; }
+.meta span { margin-right: 6px; }
+.dot { color: var(--muted); }
+.tag { display: inline-block; border: 1px solid var(--border); border-radius: 999px; padding: 1px 10px; font-size: 0.8rem; color: var(--muted); margin-right: 4px; }
+.article-list-cat { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.callout { border: 1px solid var(--border); border-left: 3px solid var(--accent); background: var(--card); border-radius: 8px; padding: 14px 16px; margin: 1.6em 0; }
+.callout strong { color: var(--text); }
+.related { border-top: 1px solid var(--border); margin-top: 2.4em; padding-top: 1em; }
+.related h3 { margin-top: 0.4em; }
+.related ul { padding-left: 1.1em; }
+.site-footer { border-top: 1px solid var(--border); padding: 24px 16px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+.footer-inner { max-width: var(--maxw); margin: 0 auto; }
+.footer-inner p { color: var(--muted); }
+footer p { color: var(--muted); margin: 0.5em 0; }
+footer a { color: var(--muted); }
+img { max-width: 100%; height: auto; }
